@@ -1,0 +1,44 @@
+.stat-card {
+  background: #0d0d0d;
+  border: 1px solid #1a1a1a;
+  border-radius: 18px;
+  padding: 18px 18px 16px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  cursor: default;
+}
+
+.stat-card:hover {
+  background: #131313;
+  border-color: #2a2a2a;
+}
+
+.stat-icon {
+  font-size: 18px;
+  margin-bottom: 12px;
+  display: block;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.stat-unit {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.3);
+  margin-left: 2px;
+}
